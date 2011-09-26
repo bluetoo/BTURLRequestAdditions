@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF78A35F1430DCA4003924C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF78A35E1430DCA4003924C0 /* UIKit.framework */; };
+		DF78A3611430DCA4003924C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF78A3601430DCA4003924C0 /* Foundation.framework */; };
+		DF78A3631430DCA4003924C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF78A3621430DCA4003924C0 /* CoreGraphics.framework */; };
+		DF78A3691430DCA4003924C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF78A3671430DCA4003924C0 /* InfoPlist.strings */; };
+		DF78A36B1430DCA4003924C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF78A36A1430DCA4003924C0 /* main.m */; };
+		DF78A36F1430DCA4003924C0 /* BTURLRequestTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF78A36E1430DCA4003924C0 /* BTURLRequestTestAppDelegate.m */; };
+		DF78A3721430DCA4003924C0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF78A3701430DCA4003924C0 /* MainWindow.xib */; };
+		DF78A3751430DCA4003924C0 /* BTURLRequestTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF78A3741430DCA4003924C0 /* BTURLRequestTestViewController.m */; };
+		DF78A3781430DCA4003924C0 /* BTURLRequestTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF78A3761430DCA4003924C0 /* BTURLRequestTestViewController.xib */; };
+		DF78A3861430DD0F003924C0 /* NSMutableURLRequest+BasicAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = DF78A3851430DD0F003924C0 /* NSMutableURLRequest+BasicAuth.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF78A35A1430DCA4003924C0 /* BTURLRequestTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTURLRequestTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF78A35E1430DCA4003924C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF78A3601430DCA4003924C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF78A3621430DCA4003924C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF78A3661430DCA4003924C0 /* BTURLRequestTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTURLRequestTest-Info.plist"; sourceTree = "<group>"; };
+		DF78A3681430DCA4003924C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF78A36A1430DCA4003924C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF78A36C1430DCA4003924C0 /* BTURLRequestTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTURLRequestTest-Prefix.pch"; sourceTree = "<group>"; };
+		DF78A36D1430DCA4003924C0 /* BTURLRequestTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTURLRequestTestAppDelegate.h; sourceTree = "<group>"; };
+		DF78A36E1430DCA4003924C0 /* BTURLRequestTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTURLRequestTestAppDelegate.m; sourceTree = "<group>"; };
+		DF78A3711430DCA4003924C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DF78A3731430DCA4003924C0 /* BTURLRequestTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTURLRequestTestViewController.h; sourceTree = "<group>"; };
+		DF78A3741430DCA4003924C0 /* BTURLRequestTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTURLRequestTestViewController.m; sourceTree = "<group>"; };
+		DF78A3771430DCA4003924C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BTURLRequestTestViewController.xib; sourceTree = "<group>"; };
+		DF78A3841430DD0F003924C0 /* NSMutableURLRequest+BasicAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableURLRequest+BasicAuth.h"; path = "../NSMutableURLRequest+BasicAuth.h"; sourceTree = "<group>"; };
+		DF78A3851430DD0F003924C0 /* NSMutableURLRequest+BasicAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableURLRequest+BasicAuth.m"; path = "../NSMutableURLRequest+BasicAuth.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF78A3571430DCA4003924C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF78A35F1430DCA4003924C0 /* UIKit.framework in Frameworks */,
+				DF78A3611430DCA4003924C0 /* Foundation.framework in Frameworks */,
+				DF78A3631430DCA4003924C0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF78A34F1430DCA4003924C0 = {
+			isa = PBXGroup;
+			children = (
+				DF78A3821430DCE4003924C0 /* NSURLRequest+BTAdditions */,
+				DF78A3641430DCA4003924C0 /* BTURLRequestTest */,
+				DF78A35D1430DCA4003924C0 /* Frameworks */,
+				DF78A35B1430DCA4003924C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF78A35B1430DCA4003924C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF78A35A1430DCA4003924C0 /* BTURLRequestTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF78A35D1430DCA4003924C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF78A35E1430DCA4003924C0 /* UIKit.framework */,
+				DF78A3601430DCA4003924C0 /* Foundation.framework */,
+				DF78A3621430DCA4003924C0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF78A3641430DCA4003924C0 /* BTURLRequestTest */ = {
+			isa = PBXGroup;
+			children = (
+				DF78A36D1430DCA4003924C0 /* BTURLRequestTestAppDelegate.h */,
+				DF78A36E1430DCA4003924C0 /* BTURLRequestTestAppDelegate.m */,
+				DF78A3701430DCA4003924C0 /* MainWindow.xib */,
+				DF78A3731430DCA4003924C0 /* BTURLRequestTestViewController.h */,
+				DF78A3741430DCA4003924C0 /* BTURLRequestTestViewController.m */,
+				DF78A3761430DCA4003924C0 /* BTURLRequestTestViewController.xib */,
+				DF78A3651430DCA4003924C0 /* Supporting Files */,
+			);
+			path = BTURLRequestTest;
+			sourceTree = "<group>";
+		};
+		DF78A3651430DCA4003924C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF78A3661430DCA4003924C0 /* BTURLRequestTest-Info.plist */,
+				DF78A3671430DCA4003924C0 /* InfoPlist.strings */,
+				DF78A36A1430DCA4003924C0 /* main.m */,
+				DF78A36C1430DCA4003924C0 /* BTURLRequestTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF78A3821430DCE4003924C0 /* NSURLRequest+BTAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				DF78A3841430DD0F003924C0 /* NSMutableURLRequest+BasicAuth.h */,
+				DF78A3851430DD0F003924C0 /* NSMutableURLRequest+BasicAuth.m */,
+			);
+			name = "NSURLRequest+BTAdditions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF78A3591430DCA4003924C0 /* BTURLRequestTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF78A37B1430DCA4003924C0 /* Build configuration list for PBXNativeTarget "BTURLRequestTest" */;
+			buildPhases = (
+				DF78A3561430DCA4003924C0 /* Sources */,
+				DF78A3571430DCA4003924C0 /* Frameworks */,
+				DF78A3581430DCA4003924C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTURLRequestTest;
+			productName = BTURLRequestTest;
+			productReference = DF78A35A1430DCA4003924C0 /* BTURLRequestTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF78A3511430DCA4003924C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Bluetoo Ventures";
+			};
+			buildConfigurationList = DF78A3541430DCA4003924C0 /* Build configuration list for PBXProject "BTURLRequestTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF78A34F1430DCA4003924C0;
+			productRefGroup = DF78A35B1430DCA4003924C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF78A3591430DCA4003924C0 /* BTURLRequestTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF78A3581430DCA4003924C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF78A3691430DCA4003924C0 /* InfoPlist.strings in Resources */,
+				DF78A3721430DCA4003924C0 /* MainWindow.xib in Resources */,
+				DF78A3781430DCA4003924C0 /* BTURLRequestTestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF78A3561430DCA4003924C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF78A36B1430DCA4003924C0 /* main.m in Sources */,
+				DF78A36F1430DCA4003924C0 /* BTURLRequestTestAppDelegate.m in Sources */,
+				DF78A3751430DCA4003924C0 /* BTURLRequestTestViewController.m in Sources */,
+				DF78A3861430DD0F003924C0 /* NSMutableURLRequest+BasicAuth.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF78A3671430DCA4003924C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF78A3681430DCA4003924C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF78A3701430DCA4003924C0 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF78A3711430DCA4003924C0 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		DF78A3761430DCA4003924C0 /* BTURLRequestTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF78A3771430DCA4003924C0 /* en */,
+			);
+			name = BTURLRequestTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF78A3791430DCA4003924C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF78A37A1430DCA4003924C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF78A37C1430DCA4003924C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTURLRequestTest/BTURLRequestTest-Prefix.pch";
+				INFOPLIST_FILE = "BTURLRequestTest/BTURLRequestTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF78A37D1430DCA4003924C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTURLRequestTest/BTURLRequestTest-Prefix.pch";
+				INFOPLIST_FILE = "BTURLRequestTest/BTURLRequestTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF78A3541430DCA4003924C0 /* Build configuration list for PBXProject "BTURLRequestTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF78A3791430DCA4003924C0 /* Debug */,
+				DF78A37A1430DCA4003924C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF78A37B1430DCA4003924C0 /* Build configuration list for PBXNativeTarget "BTURLRequestTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF78A37C1430DCA4003924C0 /* Debug */,
+				DF78A37D1430DCA4003924C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF78A3511430DCA4003924C0 /* Project object */;
+}
